@@ -1,7 +1,3 @@
-npm init
-npm install
-npm install mongoose
-
 npm install dotenv
 npm install express --save
 npm install bcryptjs --save
