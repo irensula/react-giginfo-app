@@ -1,0 +1,2 @@
+GET http://localhost:3001/api/gigs/67f643d3e89590c0269e8a56 HTTP/1.1
+content-type: application/json 

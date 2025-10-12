@@ -1,0 +1,19 @@
+PUT http://localhost:3001/api/gigs/67dd31b1add91a9fad15a845 HTTP/1.1
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImphbmVkb2UiLCJpZCI6IjY3ZGQzMGQ0YWRkOTFhOWZhZDE1NTA2OSIsImlhdCI6MTc0MjU0OTM2Mn0.4pVDslygmHHo_Ktj7TqIDFY9TkbKWi-8UZZNUyUql-o
+content-type: application/json 
+
+{
+    "name": "Rap Keikka",
+    "artist": "Paperi T",
+    "add_image": "/public/paperit.png",
+    "description": "description",
+    "gig_date": "2026-01-01",
+    "time": "18:00",
+    "address": "Hämeenkatu 1, 33300",
+    "city": "Tampere",
+    "ticket_sale_link": "https://www.lippu.fi/",
+    "genre": "rap",
+    "artist_link": "huskyrescue.fi",
+    "rate": 4,
+    "user_id": "67dbba6522c8b025f0947853"
+} 
