@@ -1,13 +1,13 @@
 const express = require('express');
-require('./mongo'); // connect to mongo
-const dotenv = require('dotenv');
+const connectToMongo = require('./mongo');
+
+connectToMongo();
+
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
 const dbConfig = require('./utils/config');
-
-dotenv.config(); // load environment variables
 
 const app = express();
 

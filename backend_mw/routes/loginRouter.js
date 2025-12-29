@@ -26,7 +26,8 @@ router.post('/', async (req, res) => {
             id: dbUser._id
         };
     
-        const token = jwt.sign(userForToken, config.SECRET, { expiresIn: '1h' })
+        const token = jwt.sign(userForToken, process.env.DB_SECRET, { expiresIn: '1h' });
+        console.log('JWT_SECRET:', process.env.DB_SECRET);
     
         res.status(200).send({
             token,
